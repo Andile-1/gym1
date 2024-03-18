@@ -10,17 +10,24 @@ const Hero = () => {
     <section
       className="hero section"
       id="home"
-      style={{ backgroundImage: `url(./images/best-gym.png)` }}
+      style={{ backgroundImage: `url(./images/gym.webp)` }}
     >
       <Fade top>
-        <h4 className="hero_title">
-          start your day <br />
-          with your favorite coffee <br />
-          and cozy place.
-        </h4>
+        <h1 className="hero_title">
+          Challange <br />
+          Yourself
+        </h1>
+        <p>
+          {" "}
+          <span>Join FitnessHub</span> and get your daily dose of fitness using
+          world class equipment, functional facilities, great trainers and best
+          machine of all, YOU.
+          <br />
+          Discover your personal potential now!
+        </p>
 
         <button className="hero_button" onClick={orderNow}>
-          Order Now
+          Join Now
         </button>
       </Fade>
     </section>
