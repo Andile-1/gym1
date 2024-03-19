@@ -43,6 +43,11 @@ const Header = () => {
                 Blog
               </a>
             </li>
+            <li className="nav__item">
+              <a href="#contact us" class="nav__link">
+                Contact us
+              </a>
+            </li>
           </ul>
 
           <div className="nav__close" id="nav-close">
